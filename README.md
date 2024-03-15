@@ -1,18 +1,17 @@
 <div align="center">
-  <h1>Currency Converter</h1>
+  <h1>💶🤑Currency Converter💴</h1>
   <p>
     An awesome and easy to use currency converter.
-  </p>
-  
-<h4>
-    <a href="https://currency-converter-ivory-nine.vercel.app/">View Demo</a>
-  <span> · </span>
-    <a href="https://github.com/Niteshkoli/currency-converter">Documentation</a>
-  <span> · </span>
-    <a href="https://github.com/Niteshkoli/currency-converter/issues/">Report Bug</a>
-  <span> · </span>
-    <a href="https://github.com/Niteshkoli/currency-converter/issues/">Request Feature</a>
-  </h4>
+  </p>  
+  <h4>
+      <a href="https://currency-converter-ivory-nine.vercel.app/">View Demo</a>
+      <span> · </span>
+      <a href="https://github.com/Niteshkoli/currency-converter">Documentation</a>
+      <span> · </span>
+      <a href="https://github.com/Niteshkoli/currency-converter/issues/">Report Bug</a>
+      <span> · </span>
+      <a href="https://github.com/Niteshkoli/currency-converter/issues/">Request Feature</a>
+    </h4>
 </div>
 
 <br />
@@ -51,7 +50,7 @@
 ### :camera: Screenshots
 
 <div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
+  <img src="https://github.com/Niteshkoli/currency-converter/blob/6ea54caabd6cea0e7bb28ca1cd78a2396d8dbe84/currency-converter-img.jpg" alt="screenshot" />
 </div>
 
 
@@ -61,53 +60,45 @@
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://nextjs.org/">Next.js</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Javascript</a></li>
     <li><a href="https://reactjs.org/">React.js</a></li>
     <li><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+    <li><a href="https://v3.vitejs.dev/guide/">vite + React</a></li>
+    
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://www.typescriptlang.org/">Typescript</a></li>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-    <li><a href="https://go.dev/">Golang</a></li>
-    <li><a href="https://nestjs.com/">Nest.js</a></li>
-    <li><a href="https://socket.io/">SocketIO</a></li>
-    <li><a href="https://www.prisma.io/">Prisma</a></li>    
-    <li><a href="https://www.apollographql.com/">Apollo</a></li>
-    <li><a href="https://graphql.org/">GraphQL</a></li>
+    <li>No server side programming.</li>
+    
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.mysql.com/">MySQL</a></li>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-    <li><a href="https://redis.io/">Redis</a></li>
-    <li><a href="https://neo4j.com/">Neo4j</a></li>
-    <li><a href="https://www.mongodb.com/">MongoDB</a></li>
+    <li>No database is used.</li>
+   
   </ul>
 </details>
 
 <details>
 <summary>DevOps</summary>
   <ul>
-    <li><a href="https://www.docker.com/">Docker</a></li>
-    <li><a href="https://www.jenkins.io/">Jenkins</a></li>
-    <li><a href="https://circleci.com/">CircleCLI</a></li>
+    <li>No DevOps</li>
+    
   </ul>
 </details>
 
 <!-- Features -->
 ### :dart: Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- You can easily convert one currency to other.
+- Easy to use.
+- wide range of currency available
+- responsive on any type of device
 
 <!-- Color Reference -->
 ### :art: Color Reference
@@ -123,11 +114,7 @@
 <!-- Env Variables -->
 ### :key: Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
-
-`API_KEY`
-
-`ANOTHER_API_KEY`
+To run this project, you will not need to add the environment variables to your .env file
 
 <!-- Getting Started -->
 ## 	:toolbox: Getting Started
@@ -135,11 +122,7 @@ To run this project, you will need to add the following environment variables to
 <!-- Prerequisites -->
 ### :bangbang: Prerequisites
 
-This project uses Yarn as package manager
-
-```bash
- npm install --global yarn
-```
+This project uses npm as package manager
 
 <!-- Installation -->
 ### :gear: Installation
@@ -147,17 +130,9 @@ This project uses Yarn as package manager
 Install my-project with npm
 
 ```bash
-  yarn install my-project
-  cd my-project
-```
-   
-<!-- Running Tests -->
-### :test_tube: Running Tests
-
-To run tests, run the following command
-
-```bash
-  yarn test test
+   npm create vite@latest
+   cd my-project
+   npm install
 ```
 
 <!-- Run Locally -->
@@ -166,7 +141,7 @@ To run tests, run the following command
 Clone the project
 
 ```bash
-  git clone https://github.com/Louis3797/awesome-readme-template.git
+  git clone https://github.com/Niteshkoli/currency-converter.git
 ```
 
 Go to the project directory
@@ -178,39 +153,20 @@ Go to the project directory
 Install dependencies
 
 ```bash
-  yarn install
+  npm install
 ```
 
 Start the server
 
 ```bash
-  yarn start
+ npm run dev
 ```
 
 
 <!-- Deployment -->
 ### :triangular_flag_on_post: Deployment
 
-To deploy this project run
-
-```bash
-  yarn deploy
-```
-
-
-<!-- Usage -->
-## :eyes: Usage
-
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
-
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
+To deploy this project i use Vercel
 
 <!-- Roadmap -->
 ## :compass: Roadmap
@@ -218,58 +174,4 @@ function App() {
 * [x] Todo 1
 * [ ] Todo 2
 
-
-<!-- Contributing -->
-## :wave: Contributing
-
-<a href="https://github.com/Louis3797/awesome-readme-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Louis3797/awesome-readme-template" />
-</a>
-
-
 Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-
-<!-- Code of Conduct -->
-### :scroll: Code of Conduct
-
-Please read the [Code of Conduct](https://github.com/Louis3797/awesome-readme-template/blob/master/CODE_OF_CONDUCT.md)
-
-<!-- FAQ -->
-## :grey_question: FAQ
-
-- Question 1
-
-  + Answer 1
-
-- Question 2
-
-  + Answer 2
-
-
-<!-- License -->
-## :warning: License
-
-Distributed under the no License. See LICENSE.txt for more information.
-
-
-<!-- Contact -->
-## :handshake: Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/Louis3797/awesome-readme-template](https://github.com/Louis3797/awesome-readme-template)
-
-
-<!-- Acknowledgments -->
-## :gem: Acknowledgements
-
-Use this section to mention useful resources and libraries that you have used in your projects.
-
- - [Shields.io](https://shields.io/)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#travel--places)
- - [Readme Template](https://github.com/othneildrew/Best-README-Template)
-
